@@ -13,7 +13,7 @@ if [ -d $REVISION ] ; then
   exit
 fi
 
-ZIP_URL="https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Mac%2F$REVISION%2Fchrome-mac.zip?alt=media"
+ZIP_URL="https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Mac%2Frefs_heads_main-$REVISION%2Fchrome-mac.zip?alt=media"
 
 ZIP_FILE="${REVISION}-chrome-mac.zip"
 
